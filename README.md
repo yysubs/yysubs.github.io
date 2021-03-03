@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## 欢迎访问人人字幕组
 
 You can use the [editor on GitHub](https://github.com/yysubs/yysubs.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
