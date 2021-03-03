@@ -1,2 +1,4 @@
 theme: jekyll-theme-architect
+github:
+  is_project_page: false
 title: 人人字幕组
