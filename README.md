@@ -4,4 +4,8 @@
 
 ## 时间轴招募中，[点这里](https://yysubs.com/timer)
 
-## 如你所见，还需要开发，[欢迎毛遂自荐](https://github.com/yysubs/yysubs.github.io/issues)
+学习·分享·进步
+
+目前字幕发布于**subhd.tv**
+
+如能提供其他帮助，请发邮件至 icanhelp@yysubs.com
