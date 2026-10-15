@@ -3,81 +3,56 @@
 
 <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>人人字幕组</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-        integrity="sha256-T/zFmO5s/0aSwc6ics2KLxlfbewyRz6UNw1s3Ppf5gE=" crossorigin="anonymous">
     <link href="/css/site.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
-                <a class="navbar-brand" href="/">YYSubs</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" href="/About">关于</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+    <header class="site-header">
+        <div class="container">
+            <a class="brand" href="/">YYSubs</a>
+            <nav class="site-nav">
+                <a href="/About">关于</a>
+            </nav>
+        </div>
     </header>
-    <div class="container flex-grow-1">
-        <main role="main" class="pb-3">
+
+    <div class="container main">
+        <main>
 
             <p>目前字幕发布于 <strong>subhd.tv</strong></p>
 
             <p>原yyets域名、微博、公众号均已不受字幕组管理，请勿轻信任何信息，谨防受骗。</p>
 
-            <h2 class="h5">前端练习生：</h2>
+            <h2 class="section-title">前端练习生：</h2>
 
-            <div class="row">
-                <div class="col-12 col-md-6 d-flex mb-3">
-                    <div class="card h-100 w-100">
-                        <div class="card-body">
-                            <a class="project-logo" href="https://t.yysubs.com" target="_blank" rel="noopener">
-                                <img src="/img/subtools.svg" alt="subtools · 字幕合并工具">
-                            </a>
-                            <p class="card-text mt-3">纯前端本地合并 SRT / ASS 双语字幕，按时间轴最大重叠配对，文件不上传。</p>
-                            <a class="btn btn-primary btn-sm" href="https://t.yysubs.com" target="_blank"
-                                rel="noopener">前往 t.yysubs.com</a>
-                        </div>
-                    </div>
+            <div class="cards">
+                <div class="card">
+                    <a class="card-logo" href="https://t.yysubs.com" target="_blank" rel="noopener">
+                        <img src="/img/subtools.svg" alt="subtools · 字幕合并工具" width="64" height="64"
+                            loading="lazy" decoding="async">
+                    </a>
+                    <p>纯前端本地合并 SRT / ASS 双语字幕，按时间轴最大重叠配对，文件不上传。</p>
+                    <a class="btn" href="https://t.yysubs.com" target="_blank" rel="noopener">前往 t.yysubs.com</a>
                 </div>
-                <div class="col-12 col-md-6 d-flex mb-3">
-                    <div class="card h-100 w-100">
-                        <div class="card-body">
-                            <a class="project-logo" href="https://yys.yysubs.com" target="_blank" rel="noopener">
-                                <img src="/img/yysubs-workbench.svg" alt="阴阳师工作台">
-                            </a>
-                            <p class="card-text mt-3">记录阴阳师日常、周常、活动任务完成情况，数据保存在浏览器本地。</p>
-                            <a class="btn btn-primary btn-sm" href="https://yys.yysubs.com" target="_blank"
-                                rel="noopener">前往 yys.yysubs.com</a>
-                        </div>
-                    </div>
+                <div class="card">
+                    <a class="card-logo" href="https://yys.yysubs.com" target="_blank" rel="noopener">
+                        <img src="/img/yysubs-workbench.webp" alt="阴阳师工作台" width="128" height="128"
+                            loading="lazy" decoding="async">
+                    </a>
+                    <p>记录阴阳师日常、周常、活动任务完成情况，数据保存在浏览器本地。</p>
+                    <a class="btn" href="https://yys.yysubs.com" target="_blank" rel="noopener">前往 yys.yysubs.com</a>
                 </div>
             </div>
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
+    <footer class="site-footer">
         <div class="container">
             &copy; YYSubs 2026
         </div>
     </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"
-        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha256-sCElQ8xaSgoxwbWp0eiXMmGZIRa0z94+ffzzO06BqXs=" crossorigin="anonymous"></script>
 
 </body>
 
