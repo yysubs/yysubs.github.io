@@ -55,22 +55,31 @@ button.accept-policy {
 
 /* Sticky footer styles
 -------------------------------------------------- */
-html {
-    position: relative;
-    min-height: 100%;
-}
-
 body {
-    /* Margin bottom by footer height */
-    margin-bottom: 60px;
+    /* 正文靠 flex-grow-1 撑开多余空间，把页脚压到视口底部。这里必须用 100vh：
+       100% 是相对 html 的高度算的，而 html 高度是 auto，百分比会算成 0。
+       旧写法 position:absolute + body margin-bottom 同样是靠 html 定位，一样失效 */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .footer {
-    position: absolute;
-    bottom: 0;
+    flex-shrink: 0;
     width: 100%;
     white-space: nowrap;
     text-align: right;
     background: #f2f2f2;
     line-height: 60px; /* Vertically center the text there */
+}
+
+/* Project cards
+-------------------------------------------------- */
+.card {
+    border-radius: .75rem;
+}
+
+.project-logo img {
+    height: 56px;
+    width: auto;
 }
